@@ -1,0 +1,9 @@
+.alert-old{
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    color: #666666;
+}
+
+.hide-first{
+    display: none;
+}
