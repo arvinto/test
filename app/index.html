@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <div>
+          <h1 class="text-center">My Task <small>List</small></h1>
+
+          <form id="add-task">
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Your Task" id="task">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button" id="clearButton">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                  </button>
+                </span>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Add</button>
+          </form>
+        </div>
+
+        <div>
+          <ul class="list-group" id="todo">
+            <li class="list-group-item tasks">
+              <input type="checkbox">
+              <!-- <div class="input-group">
+                <span class="input-group-addon">
+                  <input type="checkbox" aria-label="...">
+                </span>
+                <input type="text" class="form-control" aria-label="...">
+              </div> -->
+
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-danger center-block" id="delete">
+  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete Completed Items
+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</html>
